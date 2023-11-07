@@ -63,9 +63,9 @@
     </td>
     <td align="center">
       <a href="https://github.com/">
-        <img src="https://avatars.githubusercontent.com/" width="120px;" alt=""/><br />
+        <img src="https://avatars.githubusercontent.com/ws1811" width="120px;" alt=""/><br />
         <sub><b>송원선</b></sub></a><br />
-        <a href="https://github.com/" title="Code">💻</a>
+        <a href="https://github.com/ws1811" title="Code">💻</a>
     </td>
   </tr>
 </table>  

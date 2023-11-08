@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Test {
+public class Sugar{
 	
 	// 봉지는 3킬로그램 봉지와 5킬로그램 봉지가 있다.
 	// 상근이는 귀찮기 때문에, 최대한 적은 봉지를 들고 가려고 한다

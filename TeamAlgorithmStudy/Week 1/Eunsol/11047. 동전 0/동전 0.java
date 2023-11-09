@@ -1,8 +1,6 @@
-package secondWeek;
-
 import java.util.Scanner;
 
-public class Coin0 {
+public class Main {
 
 public static void main(String[] args) {
 		
@@ -23,24 +21,18 @@ public static void main(String[] args) {
 		
 	}
 	public int greedy(int totalMoney, int[] arr) {
-		
-		int maxIndex = 0;
 		int count = 0;
-		for(int i = 0 ; i < arr.length; i++) {
-			if(totalMoney <= arr[i]) {	
-				maxIndex = i-1;
-				break;
+		
+		for(int i = arr.length-1; i> -1; i--) {
+			if(totalMoney >= arr[i]) {	
+				 int div = totalMoney/arr[i];
+				 totalMoney = totalMoney - div * arr[i];
+				 count +=div;
 			}
+			if(totalMoney == 0)
+				break;
 		}
-		
-		
-	   for(int i = maxIndex; i>-1;i--) {
-		   int div = totalMoney/arr[i];
-		   totalMoney = totalMoney - div * arr[i];
-		   count +=div;
-		   if(totalMoney ==0 )
-			   break; 
-	   }
+	
 	   return count;
 	}
 

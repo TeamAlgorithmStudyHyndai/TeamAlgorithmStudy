@@ -1,0 +1,24 @@
+-- 코드를 입력하세요
+SELECT 
+    T2.CATEGORY
+    , SUM(T2.AMT) AS TOTAL_SALES
+FROM(
+    SELECT 
+        T1.BOOK_ID AS BOOK_ID
+        , BK.CATEGORY AS CATEGORY
+        , T1.SALES AS AMT
+    FROM(
+        SELECT
+             BOOK_ID
+             , SALES
+        FROM
+            BOOK_SALES 
+        WHERE TO_CHAR(SALES_DATE,'YYYYMM')='202201'
+    )T1
+        INNER JOIN BOOK BK
+    ON T1.BOOK_ID = BK.BOOK_ID
+)T2
+    GROUP BY T2.CATEGORY
+ORDER BY T2.CATEGORY
+
+    

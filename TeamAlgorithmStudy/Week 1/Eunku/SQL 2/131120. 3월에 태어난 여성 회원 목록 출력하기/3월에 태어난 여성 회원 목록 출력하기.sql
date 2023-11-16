@@ -1,0 +1,13 @@
+-- 코드를 입력하세요
+SELECT 
+    MEMBER_ID, MEMBER_NAME, GENDER, TO_CHAR(DATE_OF_BIRTH, 'YYYY-MM-DD')
+FROM
+    MEMBER_PROFILE
+WHERE
+    TO_CHAR(DATE_OF_BIRTH, 'MM') = 3
+and
+    TLNO is not null
+and
+    GENDER = 'W'
+order by
+    MEMBER_ID ASC

@@ -13,5 +13,6 @@ public class Main {
         for(int i = 3;i <=t; i++)
         	dp[i] = (dp[i-1] + dp[i -2])%10007;
         System.out.println(dp[t] % 10007);
+
     }
 }

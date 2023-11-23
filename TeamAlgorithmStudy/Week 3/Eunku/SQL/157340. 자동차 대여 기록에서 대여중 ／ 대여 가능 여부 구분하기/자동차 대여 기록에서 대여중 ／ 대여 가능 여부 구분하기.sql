@@ -1,0 +1,21 @@
+-- 코드를 입력하세요
+SELECT DISTINCT C.CAR_ID, nvl(n.AVAILABILITY, '대여 가능') as AVAILABILITY
+FROM 
+    CAR_RENTAL_COMPANY_RENTAL_HISTORY C
+    left join
+(SELECT 
+    CAR_ID, 
+    CASE WHEN '20221016' BETWEEN
+        TO_CHAR(START_DATE, 'YYYYMMDD')
+        AND
+        TO_CHAR(END_DATE, 'YYYYMMDD') THEN '대여중'
+        ELSE '대여 가능' END AS AVAILABILITY
+FROM
+    CAR_RENTAL_COMPANY_RENTAL_HISTORY
+WHERE (CASE WHEN '20221016' BETWEEN
+        TO_CHAR(START_DATE, 'YYYYMMDD')
+        AND
+        TO_CHAR(END_DATE, 'YYYYMMDD') THEN '대여중'
+        ELSE '대여 가능' END) = '대여중') N
+on c.car_id = n.car_id
+order by c.car_id desc

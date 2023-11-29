@@ -10,7 +10,7 @@ class Solution {
 
         dfs(0, "ICN", "ICN", tickets);
 
-        Collections.sort(list); // 알파벳 서버 정렬
+        Collections.sort(list); // 알파벳 순 정렬
         answer = list.get(0).split(" ");
         return answer;
     }

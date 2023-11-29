@@ -1,0 +1,40 @@
+-- 코드를 입력하세요
+SELECT 
+    T1.APNT_NO AS APNT_NO
+    , P.PT_NAME AS PT_NAME
+    , T1.PT_NO AS PT_NO
+    , D.MCDP_CD AS MCDP_CD
+    , D.DR_NAME AS DR_NAME
+    , T1.APNT_YMD AS APNT_YMD
+FROM 
+(
+    SELECT
+        APNT_NO
+        , PT_NO
+        , APNT_YMD
+        , MDDR_ID
+        , MCDP_CD
+    FROM
+        APPOINTMENT 
+    WHERE APNT_CNCL_YN != 'Y'
+        AND TO_CHAR(APNT_YMD,'YYYYMMDD')= '20220413'
+)T1
+INNER JOIN (
+    SELECT
+        PT_NO
+        , PT_NAME
+    FROM PATIENT
+) P
+ON P.PT_NO = T1.PT_NO
+INNER JOIN(
+    SELECT
+        DR_ID
+        , DR_NAME
+        , MCDP_CD
+    FROM DOCTOR 
+    WHERE MCDP_CD = 'CS'
+) D
+ON T1.MDDR_ID = D.DR_ID
+    AND T1.MCDP_CD = D.MCDP_CD
+ORDER BY APNT_YMD ASC
+

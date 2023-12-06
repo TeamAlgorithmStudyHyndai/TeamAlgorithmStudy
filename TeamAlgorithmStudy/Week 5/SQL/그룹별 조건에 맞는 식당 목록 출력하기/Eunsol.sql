@@ -1,0 +1,19 @@
+SELECT
+    *
+FROM(
+    SELECT
+        MAX(COUNT(MEMBER_ID)) AS CNT
+    FROM
+        REST_REVIEW
+    GROUP BY MEMBER_ID
+)T1
+INNER JOIN(
+    SELECT
+        MEMBER_ID
+        , COUNT(MEMBER_ID) AS CNT
+    FROM 
+        REST_REVIEW RR
+    GROUP BY MEMBER_ID 
+)T2
+ON T1.CNT = T2.CNT
+    

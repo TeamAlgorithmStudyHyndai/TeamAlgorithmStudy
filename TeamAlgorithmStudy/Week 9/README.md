@@ -15,4 +15,4 @@
 |[BOJ][G5]17070 파이프 옮기기 1          |      |  ✔   |      |      |DP                       |[링크](https://www.acmicpc.net/problem/17070)|
 |[Programmers][Lv3] 등굣길               |      |      |      |      |DP                       |[링크](https://school.programmers.co.kr/learn/courses/30/lessons/42898)|
 |[BOJ][G5]11000 강의실 배정              |      |      |      |      |그리디                    |[링크](https://www.acmicpc.net/problem/11000 )|
-|[도전][BOJ][G3]2206 벽 부수고 이동하기   |      |      |      |      |BFS                      |[링크](https://www.acmicpc.net/problem/2206 )|
+|[도전][BOJ][G3]2206 벽 부수고 이동하기   |      |  ✔   |      |      |BFS                      |[링크](https://www.acmicpc.net/problem/2206 )|

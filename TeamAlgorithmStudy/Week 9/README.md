@@ -9,10 +9,10 @@
 
 |알고리즘 문제                           |강은구|김은서|김은솔|송원선|알고리즘                  | 바로가기|
 |:--------------------------------------|:----:|:----:|:----:|:----:|:-----------------------:|:------:|
-|[BOJ][S1]20922 겹치는 건 싫어           |      |  ✔  |      |      |투포인터 / 슬라이딩 윈도우| [링크](https://www.acmicpc.net/problem/20922)|
-|[BOJ][S3]2559 수열                      |      | ✔   |      |      |투포인터 / 슬라이딩 윈도우|[링크](https://www.acmicpc.net/problem/2559)|
-|[BOJ][G4]1806 부분합                    |      | ✔   |      |      |투포인터 / 슬라이딩 윈도우|[링크](https://www.acmicpc.net/problem/1806 )|
-|[BOJ][G5]17070 파이프 옮기기 1          |      |  ✔   |      |      |DP                       |[링크](https://www.acmicpc.net/problem/17070)|
+|[BOJ][S1]20922 겹치는 건 싫어           |   ✔  |  ✔  |      |      |투포인터 / 슬라이딩 윈도우| [링크](https://www.acmicpc.net/problem/20922)|
+|[BOJ][S3]2559 수열                      |   ✔  | ✔   |      |      |투포인터 / 슬라이딩 윈도우|[링크](https://www.acmicpc.net/problem/2559)|
+|[BOJ][G4]1806 부분합                    |   ✔  | ✔   |      |      |투포인터 / 슬라이딩 윈도우|[링크](https://www.acmicpc.net/problem/1806 )|
+|[BOJ][G5]17070 파이프 옮기기 1          |   ✔  |  ✔   |      |      |DP                       |[링크](https://www.acmicpc.net/problem/17070)|
 |[Programmers][Lv3] 등굣길               |      |      |      |      |DP                       |[링크](https://school.programmers.co.kr/learn/courses/30/lessons/42898)|
-|[BOJ][G5]11000 강의실 배정              |      |      |      |      |그리디                    |[링크](https://www.acmicpc.net/problem/11000 )|
+|[BOJ][G5]11000 강의실 배정              |   ✔  |      |      |      |그리디                    |[링크](https://www.acmicpc.net/problem/11000 )|
 |[도전][BOJ][G3]2206 벽 부수고 이동하기   |      |  ✔   |      |      |BFS                      |[링크](https://www.acmicpc.net/problem/2206 )|

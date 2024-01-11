@@ -9,9 +9,9 @@
 |알고리즘 문제                           |강은구|김은서|김은솔|송원선|알고리즘                  | 바로가기|
 |:-----------------------------------|:----:|:----:|:----:|:----:|:-----------------------:|:------:|
 |[BOJ][G5]20055 컨베이어 벨트 위의 로봇    |      |  ✔  |      |      |구현 / 시뮬레이션| [링크](https://www.acmicpc.net/problem/20055)|
-|[BOJ][G4]15683 감시                  |      |     |      |      |구현 / 시뮬레이션| [링크](https://www.acmicpc.net/problem/15683)|
+|[BOJ][G4]15683 감시                  |      |  ✔  |      |      |구현 / 시뮬레이션| [링크](https://www.acmicpc.net/problem/15683)|
 |[BOJ][G5]7490 0 만들기                |      |  ✔  |      |      |구현 / 시뮬레이션| [링크](https://www.acmicpc.net/problem/7490)|
 |[BOJ][G5]1916 최소비용 구하기           |      |     |      |      |다익스트라| [링크](https://www.acmicpc.net/problem/1916)|
 |[BOJ][G4]17471 게리맨더링              |      |     |      |      |DFS / BFS| [링크](https://www.acmicpc.net/problem/17471)|
-|[BOJ][G5]6593 상범 빌딩               |      |     |      |      |DFS / BFS| [링크](https://www.acmicpc.net/problem/6593)|
+|[BOJ][G5]6593 상범 빌딩               |      |  ✔  |      |      |DFS / BFS| [링크](https://www.acmicpc.net/problem/6593)|
 |[BOJ][G4]2631 줄세우기                |      |     |      |      |DP| [링크](https://www.acmicpc.net/problem/2631)|

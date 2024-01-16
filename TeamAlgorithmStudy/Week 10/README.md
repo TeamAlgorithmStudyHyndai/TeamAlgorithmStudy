@@ -1,7 +1,7 @@
 ⭐**문제 제출 후 Edit으로 체크✔하기**⭐<br/><br/>
 |SQL 문제                     |강은구|김은서|김은솔|송원선|
 |:---------------------------|:----:|:----:|:----:|:----:|
-|[Lv4] 8문제                  |      |      |  ✔  |      | 
+|[Lv4] 8문제                  |      |  ✔   |  ✔  |      | 
 |[Lv5] 1문제                  |      |  ✔   |  ✔  |      |
 <img width="595" alt="스크린샷 2024-01-10 오후 6 47 26" src="https://github.com/TeamAlgorithmStudyHyndai/TeamAlgorithmStudy/assets/74243990/ed398ab6-65f9-41a5-95f0-ff56df6b9616">
 <img width="583" alt="스크린샷 2024-01-10 오후 6 47 48" src="https://github.com/TeamAlgorithmStudyHyndai/TeamAlgorithmStudy/assets/74243990/3c0c9214-c1a1-4504-84c5-bbb22541fb35">

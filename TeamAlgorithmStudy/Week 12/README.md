@@ -13,4 +13,4 @@
 |[BOJ][G5]15686 치킨 배달               |      |      |      |      | 구현 | [링크](https://www.acmicpc.net/problem/15686)|
 |[BOJ][S1]11052 카드 구매하기            |      |      |      |      | DP | [링크](https://www.acmicpc.net/problem/11052)|
 |[BOJ][S1]1946 신입사원                 |      |      |      |      | 그리디 | [링크](https://www.acmicpc.net/problem/1946)|
-|[BOJ][G5]1759 암호 만들기              |      |      |      |      | 완전탐색 | [링크](https://www.acmicpc.net/problem/)|
+|[BOJ][G5]1759 암호 만들기              |      |      |      |      | 완전탐색 | [링크](https://www.acmicpc.net/problem/1759)|

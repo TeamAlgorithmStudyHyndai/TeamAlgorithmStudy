@@ -18,6 +18,7 @@ public class Main {
                 StringTokenizer st = new StringTokenizer(br.readLine(), " ");
                 arr.add(new int[]{Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken())});
             }
+
             arr.sort((Comparator.comparingInt(o -> o[0])));
             int count = 1;
             int test2 =  arr.get(0)[1];
